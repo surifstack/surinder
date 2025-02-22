@@ -9793,4 +9793,10 @@ textarea.form-control {
       margin: -2px 0px !important;
      
   }
+
+  .owl-carousel {
+    touch-action: pan-y; /* Enables smooth scrolling on touch devices */
+    overflow: hidden;
+}
+
     
