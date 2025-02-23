@@ -9795,8 +9795,7 @@ textarea.form-control {
   }
 
   .owl-carousel {
-    touch-action: pan-y; /* Enables smooth scrolling on touch devices */
-    overflow: hidden;
+    overflow: scroll;
 }
 
     
