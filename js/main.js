@@ -317,6 +317,7 @@
   
   $(document).ready(function () {
 	$(".nav-link").on("click", function () {
+		alert(1);
 		$(".navbar-collapse").collapse("hide");
 	});
 });
