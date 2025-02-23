@@ -319,5 +319,16 @@
 	$(".nav-link").on("click", function () {
 		$(".navbar-collapse").collapse("hide");
 	});
-});
+ });
+
+const menuAction = () =>{
+ if($("#ftco-nav").hasClass("show")){
+		$(".icon-menu").removeClass("hidden");
+		$(".icon-times").addClass("hidden");
+	}else{
+		$(".icon-menu").addClass("hidden");
+		$(".icon-times").removeClass("hidden");
+	}
+};
+
 
