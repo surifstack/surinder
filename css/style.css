@@ -9794,13 +9794,9 @@ textarea.form-control {
      
   }
 
-  .owl-carousel {
-    overflow: scroll;
-}
+ 
 
-.hero{
-  overflow: scroll;
-}
+
 
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
   -ms-touch-action: auto !important;
