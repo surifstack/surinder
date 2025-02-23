@@ -9802,11 +9802,9 @@ textarea.form-control {
   overflow: scroll;
 }
 
-.owl-carousel .owl-stage, 
-
-.owl-carousel.owl-drag .owl-item {
-
-    touch-action: pan-y !important;
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto !important;
+      touch-action: auto !important;
 
 }
 
